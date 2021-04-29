@@ -1,4 +1,4 @@
-body {
+html, body {
     height: 100%;
 }
 body > * {
@@ -27,6 +27,10 @@ main > nav {
 .deck {
     background: #0fa0ce;
 }
+.deck:first-child {
+    border-bottom: 1px solid black;
+}
+
 .centerWords {
     display: flex;
     justify-content: center;
